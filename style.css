@@ -316,7 +316,10 @@ body{
         padding:10px;
     }
 
-    
+    .header-nav{
+        justify-content: space-between;
+        width: 95%;
+    }
 
     .hamberger-menue{
         list-style: none;
@@ -360,13 +363,34 @@ body{
 
         align-items: center;
 
+        height: 40vh;
+
+        justify-content: space-around;
+
         width: 80%;
+
+        padding-bottom: 30px;
+    }
+
+    .phone-footer h3{
+        padding-bottom: 20px;
     }
 
     .phone-footer-center{
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        padding-top: 10px;
+
+    }
+
+    .button-wrpper{
+        padding-bottom: 30px;
+    }
+
+    .footer-top-right{
+        width: 80%;
     }
 
 }
