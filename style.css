@@ -24,6 +24,10 @@ body{
 
 }
 
+.hamberger-menue{
+    display: none;
+}
+
 /* ul */
 .nav-header-list{
     list-style: none;
@@ -293,6 +297,10 @@ body{
     padding-left: 10px;
 }
 
+.phone-footer{
+    display: none;
+}
+
 /* footer end */
 
 
@@ -302,6 +310,17 @@ body{
 
     .nav-header-list{
         display: none;
+    }
+
+    .logo{
+        padding:10px;
+    }
+
+    
+
+    .hamberger-menue{
+        list-style: none;
+        display: flex;
     }
 
     .nav-right{
@@ -332,6 +351,22 @@ body{
 
     .footer{
         display: none;
+    }
+
+    .phone-footer{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+
+        align-items: center;
+
+        width: 80%;
+    }
+
+    .phone-footer-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 }
